@@ -64,10 +64,10 @@ function generateBox(w, h, inp) {
   return block;
 }
 
-function GenerateColorblock() {
+function generateColorBlock() {
   const hexDez = RandomHex(6);
   const result = chalk.hex(hexDez);
   return console.log(result(generateBox(31, 9, '#' + hexDez)));
 }
 
-GenerateColorblock();
+generateColorBlock();
