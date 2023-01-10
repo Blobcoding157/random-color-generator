@@ -1,0 +1,13 @@
+{
+  "name": "random-color-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "repository": "https://github.com/Blobcoding157/random-color-generator.git",
+  "author": "Patrik <patrik.nuernberger@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.57.1",
+    "sharp": "^0.31.3"
+  }
+}
