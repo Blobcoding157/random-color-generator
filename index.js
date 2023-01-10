@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import colors from 'color';
+import randomColor from 'randomColor';
 
 const RandomHex = (size) => {
   let result = [];
