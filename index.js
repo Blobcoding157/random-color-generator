@@ -1,6 +1,8 @@
 import chalk from 'chalk';
 //import randomColor from 'randomColor';
 
+//plan to create Hue and Luminosity for later:  to create a luminosity effect, every character in the array needs to go up/down for more/less brightness
+//for hue aka random color. you have to randomise and fixate specific positions in the array
 const RandomHex = (size) => {
   let result = [];
   let hexRef = [
